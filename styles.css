@@ -32,8 +32,9 @@ header .close {
     border-radius: 50%;
     border: none;
     background: #e0e0e0;
-    box-shadow:  20px 20px 60px #d5d7d9,
-             -20px -20px 60px #ffffff;
+    background: #e0e0e0;
+    box-shadow:  -20px 20px 60px #bcbcbc,
+             20px -20px 60px #ffffff;
 }
 
 header .more {
@@ -43,11 +44,106 @@ header .more {
     border-radius: 50%;
     border: none;
     background: #e0e0e0;
-    box-shadow:  20px 20px 60px #d5d7d9,
-             -20px -20px 60px #ffffff;
+    box-shadow:  -20px 20px 60px #bcbcbc,
+             20px -20px 60px #ffffff;
 }
 
 header p {
     font-size: 1.5rem;
+    color: #605454;
+}
+
+.album--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album--info h3 {
+    margin-top: 13px;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.album--info p {
+    margin-top: 8px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
     color: #B7B7B7;
+    line-height: 19px;
+}
+
+.album--info img {
+    border-radius: 25px;
+}
+
+.audio-spectre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.audio-spectre img {
+    width: 275px;
+    height: 94px;
+}
+
+.audio-spectre p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.audio-spectre .begin-time {
+    margin-left: 18px;
+}
+
+.audio-spectre .end-time {
+    margin-right: 18px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .shuffle, .repeat {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: #e0e0e0;
+    box-shadow:  -20px 20px 60px #bcbcbc,
+             20px -20px 60px #ffffff;
+
+}
+
+footer .shuffle {
+    margin-left: 18px;
+}
+
+footer .repeat {
+    margin-right: 18px;
+}
+
+footer .back, .forward {
+    border: none;
+    background: #e0e0e0;
+}
+
+footer .play {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    background: #e0e0e0;
+    box-shadow:  -20px 20px 60px #bcbcbc,
+             20px -20px 60px #ffffff;
 }
